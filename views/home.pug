@@ -1,0 +1,42 @@
+extends base.pug
+
+//- block script 
+//-     script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+block content 
+    section#introSection 
+      div Welcome to Rajdeep's Dance Academy 
+      div.small Eat Sleep Dance Repeat 
+
+    section#missionSection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/kindpng_3263.png")
+          div.card-content 
+            p This is the best dance academy of the universe
+      div.card
+        h3 Dance the way you like
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/Break_Dancer.png")
+          div.card-content 
+            p This is the best dance academy of the universe
+      div.card
+        h3 Expert Teaching
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/toppng.com-hip-hop-dancer-silhouette-826x1201.png")
+          div.card-content 
+            p This is the best dance academy of the universe
+    section#sponsorsSection
+      h2 Our Sponsers 
+      div#sponsers 
+        img(src="/static/img/pngwing.com (1).png", alt="Sponser Image", class="spImage")
+        img(src="/static/img/Microsoft.png", alt="Sponser Image", class="spImage")
+        //- img(src='/static/PikPng.com_dance-png_3257925.png', alt="Sponser Image", class="spImage")
+        //- img(src="/static/hp.png", alt="Sponser Image", class="spImage")
